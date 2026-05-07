@@ -1,0 +1,21 @@
+{
+  "name": "gemma-4-briefbench",
+  "version": "1.0.0",
+  "description": "A Gemma 4-powered local brief analyzer for turning messy project notes into structured decisions.",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node --watch server.mjs",
+    "check": "node --check server.mjs"
+  },
+  "keywords": [
+    "gemma-4",
+    "devchallenge",
+    "local-ai",
+    "ai-tools"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  }
+}
