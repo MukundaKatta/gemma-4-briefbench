@@ -31,9 +31,23 @@ loadSample.addEventListener("click", async () => {
 });
 
 copy.addEventListener("click", async () => {
-  if (!lastMarkdown) return;
-  await navigator.clipboard.writeText(lastMarkdown);
-  status.textContent = "Copied Markdown brief.";
+  if (!lastMarkdown) {
+    status.textContent = "Run an analysis before copying.";
+    return;
+  }
+
+  const fallback = document.createElement("textarea");
+  fallback.value = lastMarkdown;
+  fallback.setAttribute("readonly", "");
+  fallback.style.position = "fixed";
+  fallback.style.opacity = "0";
+  document.body.append(fallback);
+  fallback.select();
+  const copied = document.execCommand("copy");
+  fallback.remove();
+  status.textContent = copied
+    ? "Copied Markdown brief."
+    : "Copy was blocked by the browser. The Markdown is still rendered in the brief.";
 });
 
 form.addEventListener("submit", async (event) => {

@@ -21,6 +21,11 @@ npm start
 
 Open `http://localhost:4174`.
 
+Public links:
+
+- Demo: `https://gemma-4-briefbench.vercel.app`
+- Code: `https://github.com/MukundaKatta/gemma-4-briefbench`
+
 By default the app runs in demo mode, so judges can try it immediately. To use Gemma 4 through an API, copy `.env.example` to `.env` and set one of:
 
 ```bash
@@ -43,6 +48,7 @@ You can also choose the provider and model from the UI. Environment variables ke
 
 - App: `public/index.html`
 - Server: `server.mjs`
+- Vercel API: `api/analyze.js`, `api/sample.js`
 - Sample notes: `samples/civic-tech-note.md`
 - DEV post draft: `docs/dev-submission.md`
 

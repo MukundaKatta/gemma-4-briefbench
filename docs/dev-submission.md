@@ -1,10 +1,14 @@
-# I Built BriefBench: A Gemma 4 Tool That Turns Messy Notes Into Model Decisions
+---
+title: I Built BriefBench: A Gemma 4 Tool That Turns Messy Notes Into Model Decisions
+published: false
+tags: devchallenge, gemmachallenge, gemma
+---
 
 This is my submission for the **Build With Gemma 4** prompt in the DEV Gemma 4 Challenge.
 
 BriefBench is a small local-first web app that helps builders turn rough project notes into a structured decision brief. The goal is not to hide Gemma 4 behind a generic chat interface. The goal is to make the model's work visible: read context, explain the model choice, surface risks, propose a build plan, and suggest a story angle for a technical post.
 
-## What It Does
+## What I Built
 
 You paste messy notes about a project: users, constraints, privacy concerns, available hardware, and what you are trying to decide. BriefBench asks Gemma 4 to return strict JSON with:
 
@@ -18,7 +22,21 @@ You paste messy notes about a project: users, constraints, privacy concerns, ava
 
 The UI then renders those sections as a scannable brief and lets you copy the result as Markdown.
 
-## Why I Chose Gemma 4
+## Demo
+
+Try the app here:
+
+https://gemma-4-briefbench.vercel.app
+
+The public demo runs in demo mode by default so anyone can test the full workflow immediately. If you run it locally with a Gemma 4 API key, the same interface can call Gemma 4 through Google AI Studio or OpenRouter.
+
+## Code
+
+Repository:
+
+https://github.com/MukundaKatta/gemma-4-briefbench
+
+## How I Used Gemma 4
 
 The challenge page asks builders to make a clear case for model selection, so I designed the app around that idea.
 
