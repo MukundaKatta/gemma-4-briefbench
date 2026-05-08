@@ -1,0 +1,13 @@
+AidBriefBench is an AI decision brief tool for small nonprofit teams working on field operations.
+
+The problem is simple: volunteer coordinators often work from messy notes, chat threads, and last-minute constraints. In this demo, the scenario is a food pantry that needs to coordinate drivers, pickup sites, dropoff locations, and cold storage limits during a rush window.
+
+I click Load sample to bring in the rough field notes. The notes include driver availability, phone constraints, privacy concerns, and a Raspberry Pi available at the pantry office.
+
+Then I click Analyze. The app asks Gemma 4 to turn the messy context into structured JSON, not a generic chatbot answer. That JSON becomes a decision brief with a summary, model rationale, risks, build plan, user experience notes, and assumptions.
+
+For social-good workflows, the most important parts are the risks and assumptions. AidBriefBench keeps those visible so a human coordinator can review the plan before acting.
+
+This aligns with SDG 2, Zero Hunger, by supporting food pantry logistics. It also supports small community organizations that need practical AI tools without heavy infrastructure.
+
+The app is deployed, the source code is public, and judges can try it immediately in demo mode. With a real Gemma 4 API key or local Gemma runtime, the same workflow can become a privacy-aware planning assistant for nonprofit teams.

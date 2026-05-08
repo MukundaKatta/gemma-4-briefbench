@@ -11,11 +11,13 @@ Submissions open May 8, 2026.
 - Screenshot 1: `assets/screenshots/briefbench-start.png`
 - Screenshot 2: `assets/screenshots/briefbench-analysis.png`
 - Silent fallback video: `assets/videos/aidbriefbench-demo-silent.mp4`
+- Narrated demo video: `assets/videos/aidbriefbench-demo-narrated.mp4`
+- Narration source: `docs/submissions/ibm-unsa/narration.txt`
 
 ## Still Needed
 
-- Recommended: record a narrated 2-3 minute demo video using `demo-video-script.md`.
-- Fallback: use `assets/videos/aidbriefbench-demo-silent.mp4` if Devpost accepts direct video upload.
+- Recommended: use `assets/videos/aidbriefbench-demo-narrated.mp4`, or record a more personal narrated screen walkthrough using `demo-video-script.md`.
+- Fallback: use `assets/videos/aidbriefbench-demo-silent.mp4` if audio causes upload issues.
 - Upload the final video somewhere Devpost accepts, such as YouTube or Vimeo, if a URL is required.
 - Submit once the Devpost form opens.
 
