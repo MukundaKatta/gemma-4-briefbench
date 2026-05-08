@@ -13,6 +13,7 @@ Submissions open May 8, 2026.
 - Silent fallback video: `assets/videos/aidbriefbench-demo-silent.mp4`
 - Narrated demo video: `assets/videos/aidbriefbench-demo-narrated.mp4`
 - Narration source: `docs/submissions/ibm-unsa/narration.txt`
+- Raw video URL: https://raw.githubusercontent.com/MukundaKatta/gemma-4-briefbench/main/assets/videos/aidbriefbench-demo-narrated.mp4
 
 ## Still Needed
 
