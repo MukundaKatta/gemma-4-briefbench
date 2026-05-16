@@ -27,6 +27,10 @@ Run the production checks:
 npm run ci
 ```
 
+The CI gate syntax-checks the server, API, library, and browser files, runs the
+Node test suite, and executes a demo-mode smoke analysis without calling an
+external model provider.
+
 Public links:
 
 - Demo: `https://gemma-4-briefbench.vercel.app`

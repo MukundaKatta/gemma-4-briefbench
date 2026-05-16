@@ -8,7 +8,8 @@
     "dev": "node --watch server.mjs",
     "check": "node --check server.mjs && node --check api/analyze.js && node --check api/sample.js && node --check lib/briefbench.mjs && node --check public/app.js",
     "test": "node --test",
-    "ci": "npm run check && npm test"
+    "smoke": "node -e \"import('./lib/briefbench.mjs').then(async ({ analyzeBrief }) => { const result = await analyzeBrief({ notes: 'A civic delivery team is coordinating volunteers, privacy-sensitive resident addresses, route uncertainty, and a need for a reviewable dispatch brief before changing operations.', provider: 'demo' }); if (!result.analysis?.summary) throw new Error('Missing demo summary'); })\"",
+    "ci": "npm run check && npm test && npm run smoke"
   },
   "keywords": [
     "gemma-4",
