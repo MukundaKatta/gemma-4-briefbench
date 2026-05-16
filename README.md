@@ -21,6 +21,12 @@ npm start
 
 Open `http://localhost:4174`.
 
+Run the production checks:
+
+```bash
+npm run ci
+```
+
 Public links:
 
 - Demo: `https://gemma-4-briefbench.vercel.app`
